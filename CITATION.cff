@@ -4,18 +4,10 @@ message: If you use this work, please cite the associated Zenodo paper.
 type: software
 authors:
 - given-names: Sylwia
-  family-names: Mikształ
+  family-names: Miksztal
 repository-code: https://github.com/sysia48/synthetic-self-ocb
 url: https://github.com/sysia48/synthetic-self-ocb
 doi: 10.5281/zenodo.18239781
 date-released: 2026-01-14
 license: Apache-2.0
 
-preferred-citation:
-  type: software
-  title: "Synthetic Self + Outcome-Centric Blame (OCB)"
-  authors:
-    - given-names: Sylwia
-      family-names: Mikształ
-  doi: 10.5281/zenodo.18239781
-  year: 2026
