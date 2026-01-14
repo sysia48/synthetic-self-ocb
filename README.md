@@ -1,5 +1,7 @@
 # Synthetic Self + OCB
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18239781.svg)](https://doi.org/10.5281/zenodo.18239781)
+
 **Stable intelligence requires more than recursion.**
 
 This repository implements *Synthetic Self* mechanisms combined with
