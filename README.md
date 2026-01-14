@@ -2,6 +2,11 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18239781.svg)](https://doi.org/10.5281/zenodo.18239781)
 
+## 🔍 Active review threads
+
+- 👉 [Seeking conceptual review: Synthetic Self + OCB](../../issues/1)
+- 👉 [Failure modes / negative results welcome](../../issues/2)
+
 **Stable intelligence requires more than recursion.**
 
 This repository implements *Synthetic Self* mechanisms combined with
