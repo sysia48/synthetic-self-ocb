@@ -7,6 +7,8 @@
 - 👉 [Seeking conceptual review: Synthetic Self + OCB](../../issues/1)
 - 👉 [Failure modes / negative results welcome](../../issues/2)
 
+> External critique and negative results are explicitly encouraged.
+
 **Stable intelligence requires more than recursion.**
 
 This repository implements *Synthetic Self* mechanisms combined with
