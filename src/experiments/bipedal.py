@@ -1,13 +1,35 @@
-from ocb.synthetic_self import SyntheticSelf
-from ocb.capacity_forecaster import CapacityForecaster
+# experiments/bipedal.py
 
-agent = SyntheticSelf(identity_id="bipedal-agent")
+from synthetic_self import SyntheticSelf, Memory, Identity, Stability
+
+
+class CapacityForecaster:
+    def __init__(self):
+        self.loads = []
+
+    def update(self, load):
+        self.loads.append(load)
+
+    def capacity(self):
+        return sum(self.loads) / len(self.loads) if self.loads else 0.0
+
+
+# init system
+memory = Memory()
+identity = Identity()
+stability = Stability()
+
+agent = SyntheticSelf(identity, memory, stability)
 capacity = CapacityForecaster()
 
+
+# simulation loop
 for step in range(5):
     state = {"step": step, "load": step * 0.15}
-    agent.observe(state)
+    output = agent.process(state)
     capacity.update(load=state["load"])
 
-print("continuity:", agent.continuity())
+
+# results
+print("last output:", output)
 print("capacity:", capacity.capacity())
